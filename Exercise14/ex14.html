@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Trinket++</title>
+  </head>
+  
+  <body>
+    <h1>Trinket++</h1>
+    <h3>Our trove, your treasures</h3>
+
+    <p>Enter maximum price of the product you would like to buy and
+      click the "Cha-ching" button to find your treasure in our trove</p>
+    
+    <form action="ex14.cgi" method="post" target="result">
+      <p>Enter cateogry of product
+	<input type="text" name="category"></p>
+      <p>Enter maximum product price:
+	<input type="number" name="price"></p>
+      <p><input type="submit" value="Cha-ching!"></p>
+    </form>      
+    <hr>
+    <h3>Response from your previous query is displayed below:</h3>
+    <iframe name="result" style="border: 0 none; width: 100%;" height="500"></iframe>      
+  </body>
+</html>

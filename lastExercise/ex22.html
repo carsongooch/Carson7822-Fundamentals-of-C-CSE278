@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Trinket++</title>
+  </head>
+  
+  <body>
+    <h1>Trinket++</h1>
+    <h3>Our trove, your treasures</h3>
+
+    <p>Enter the manufacturer whose product you would like to buy:</p>
+   
+    <form action="ex22.cgi" method="post" target="result">
+       <p>Manufacturer: <input type="text" name="manu"></p>
+       <p>Cost: <input type="number" name="cost"></p>
+       <p><input type="submit" value="Find"></p>
+    </form>
+ 
+    <hr>
+    <h3>Response from your previous query is displayed below:</h3>
+    <iframe name="result" style="border: 0 none; width: 100%;" height="500"></iframe>      
+  </body>
+</html>
+
